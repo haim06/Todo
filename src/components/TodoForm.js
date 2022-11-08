@@ -4,7 +4,7 @@ function TodoForm(props) {
 const [input, setInput] = useState(props.edit ? props.edit.value : '')
 
 const inputRef = useRef(null)
-
+// simple example
 useEffect(() => {
     inputRef.current.focus()
 })
